@@ -2,7 +2,7 @@
     height: 8vh;
     width: 100%;
     margin-top: -2vh;
-    background-color: #fa8500;
+    background-color: rgb(255, 113, 1);
 }
 
 .barra_navegacao ul li{
@@ -32,8 +32,8 @@
     color: black;
 }
 .localNav{
-    background-color: #cfcfcf;
-    color: #ff8800;
+    background-color: rgb(230, 230, 230);
+    color: rgb(255, 113, 1);
     font-family: Arial;
     margin-top: 8vh;
     position: absolute;
@@ -60,7 +60,7 @@
 .banner{
     height: 40vh;
     width: 100%;
-    background-color: #86bcfa;
+    background-color: rgb(39, 190, 197);
     margin-top: 5vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +80,7 @@
 }
 
 #btBannerAnterior{
-    background-color: #ff8800;
+    background-color: rgb(255, 113, 1);
     height: 6vh;
     width: 6vh;
     padding: 2vh;
@@ -88,7 +88,7 @@
     position: absolute;
 }
 #btBannerProximo{
-    background-color: #ff8800;
+    background-color:rgb(255, 113, 1);
     height: 6vh;
     width: 6vh;
     padding: 2vh;
@@ -96,6 +96,117 @@
     margin-left: 185vh;
     position: absolute;
 }
+.CardsElementos{
+    background-color: rgb(230, 230, 230);
+    margin-left: 10vh;
+    margin-top: 2vh;
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    height: 30vh;
+    width: 20vh;
+    background-color: rgb(242, 242, 242);
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    
+}
+.card h1{
+    text-align: center;
+    font-size: 3vh;
+    color: rgb(39, 190, 197);
+    font-family: Arial;
+    font-weight: 500;
+}
+.card h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.cardProduto{
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.cardProduto h1{
+
+    font-size: 3vh;
+    font-weight: 500;
+    font-family: Arial;
+    color: rgb(39, 190, 197);
+
+}
+.cardProduto h4{
+    color: rgb(0, 0, 0);
+
+}
+.cardProduto:hover{
+    transition: all 1.0s;
+    transform: scale(1.2);
+}
+.card03{
+    background-color: rgb(242, 242, 242);
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    text-align: center;
+}
+.card03 h1{
+
+    font-size: 3vh;
+    font-family: Arial;
+    font-weight: 500;
+    color: rgb(39, 190, 197);
+
+}
+.card03 h4{
+    color: rgb(0, 0, 0);
+
+}
+.card03:hover{
+    transition: all 1.0s;
+    transform: scale(1.2);
+}
+.card:hover{
+    transition: all 1.0s;
+    transform: scale(1.2);
+}
+.sb{
+    box-shadow: rgb(210, 210, 210) 0.1vh 0.1vh;
+    }
 footer{
-    background-color: #cfcfcf;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 113, 1);
+    color: white;
+    margin-top: 5vh;
+}
+footer h4{
+    width: 100%;
+    text-align: center;
+    padding: 3vh;
+}
+.SocialMedia{
+    position: absolute;
+    float: left;
+}
+.SocialMedia ul li{
+    float: left;
+    margin-left: 4vh;
+    list-style: none;
+}
+.SocialMedia ul{
+    margin-top: 2.5vh;
+}
+.SocialMedia ul li a img{
+    height: 5vh;
 }
