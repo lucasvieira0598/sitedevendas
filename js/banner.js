@@ -40,3 +40,5 @@ HomeMenu.addEventListener("click",()=>{
 
 let ProdutoMenu = document.getElementById("Menu_02").getElementsByTagName("li")[1].getElementsByTagName("a")[0]
 ProdutoMenu.addEventListener("click",ProdutosPage)
+
+export default Banner 

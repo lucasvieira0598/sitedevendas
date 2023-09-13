@@ -1,5 +1,7 @@
 import navComponente from "./nav.js"
 import Banner from "./banner.js"
+import card from "./cards.js"
+import paginas from "./paginas.js"
 
 let Menus = ["Home","Produtos","Contato"]
 let nav = new navComponente();
